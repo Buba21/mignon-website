@@ -1,18 +1,11 @@
-import React from 'react'
+import CarouselImagesComponent from "./components/carousel-images/carousel-images.component";
 
-interface LandingPageComponentProps {
-  title: string
-  description: string
-  image: string
-  link: string
-}
-
-export default function LandingPageComponent = ({ title, description, image, link }: LandingPageComponentProps) => {
+export default function LandingPageComponent() {
   return (
-    <div>
+    <div className="flex flex-col items-center justify-center">
     <div>Nav</div>
-    <div>Carrousel images</div>
-    <div>Espacos</div>
+    <CarouselImagesComponent />
+    <div>Espacos tets</div>
     <div>Contactos</div>
     </div>
   )
