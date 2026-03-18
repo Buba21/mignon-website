@@ -2,6 +2,7 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 @import "@fontsource-variable/geist";
+@import "flag-icons/css/flag-icons.min.css";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -41,6 +42,10 @@
 
 @layer base {
   :root {
+    --mignon-color-primary: #2C3E50;
+    --mignon-color-primary-light: #3a5068;
+    --mignon-color-secondary: #C0392B;
+    --mignon-color-accents: #B8860B;
     --background: oklch(1 0 0);
     --foreground: oklch(0.145 0 0);
     --card: oklch(1 0 0);
@@ -114,9 +119,12 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply text-foreground;
+    background-color: var(--mignon-color-primary);
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
   }
   html {
-    @apply font-sans;
+    font-family: 'Barlow Condensed', sans-serif;
   }
 }
