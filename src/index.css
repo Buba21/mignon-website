@@ -46,6 +46,11 @@
     --mignon-color-primary-light: #3a5068;
     --mignon-color-secondary: #C0392B;
     --mignon-color-accents: #B8860B;
+    --mignon-card-bg: rgba(255, 255, 255, 0.08);
+    --mignon-card-border: rgba(255, 255, 255, 0.15);
+    --mignon-card-separator: rgba(255, 255, 255, 0.08);
+    --mignon-card-text: rgba(255, 255, 255, 0.9);
+    --mignon-card-muted: rgba(255, 255, 255, 0.4);
     --background: oklch(1 0 0);
     --foreground: oklch(0.145 0 0);
     --card: oklch(1 0 0);

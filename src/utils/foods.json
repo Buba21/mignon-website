@@ -1,0 +1,36 @@
+{
+  "FRENCH_FRIES": {
+    "label": "Batatas Fritas",
+    "items": [
+      { "name": "Batatas Frita", "price": 5.5 }
+    ]
+  },
+  "HAMBURGERS": {
+    "label": "Hamburgueres",
+    "items": [
+      { "name": "Hamburguer Especial", "price": 7.5 },
+      { "name": "Hamburguer Simples", "price": 7 }
+    ]
+  },
+  "NACHOS": {
+    "label": "Nachos",
+    "items": [
+      { "name": "Nachos com Guacamole", "price": 4.5 },
+      { "name": "Nachos GR", "price": 8.5 }
+    ]
+  },
+  "PREGOS": {
+    "label": "Pregos",
+    "items": [
+      { "name": "Prego de Vitela", "price": 7.5 },
+      { "name": "Prego Especial", "price": 8.5 }
+    ]
+  },
+  "SANDWICHES": {
+    "label": "Tostas",
+    "items": [
+      { "name": "Tosta da Ilha", "price": 7 },
+      { "name": "Tosta Mista", "price": 7 }
+    ]
+  }
+}
