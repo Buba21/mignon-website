@@ -48,7 +48,7 @@ export default function MenuPageComponent() {
                                 MIGNON SPORTS BAR
                             </p>
                             <div className='flex items-center justify-center gap-2'>
-                                <img src={`/src/assets/icons/${iconsMap.get(key)}`} alt={category.label} className='w-12' />
+                                <img src={`${import.meta.env.BASE_URL}icons/${iconsMap.get(key)}`} alt={category.label} className='w-12' />
                                 <h2 className='text-white font-medium text-2xl'>{category.label}</h2>
                             </div>
                             <div className='w-[40px] h-[2px] bg-(--mignon-color-secondary) mt-2 mx-auto' />
