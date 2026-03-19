@@ -5,7 +5,7 @@ import {
     DropdownMenuItem,
     DropdownMenuTrigger,
   } from "@/components/ui/dropdown-menu"
-import logo from '@/assets/icons/LOGO_NOVO_MIGNON.svg'
+const logo = `${import.meta.env.BASE_URL}icons/LOGO_NOVO_MIGNON.svg`
 import { Button } from "@/components/ui/button";
 
 const navItems = [
