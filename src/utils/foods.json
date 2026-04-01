@@ -1,36 +1,36 @@
 {
   "FRENCH_FRIES": {
-    "label": "Batatas Fritas",
+    "label": "BATATAS_FRITAS",
     "items": [
-      { "name": "Batatas Frita", "price": 5.5 }
+      { "name": "BATATAS_FRITAS", "price": 5.5 }
     ]
   },
   "HAMBURGERS": {
-    "label": "Hamburgueres",
+    "label": "HAMBURGERS",
     "items": [
-      { "name": "Hamburguer Especial", "price": 7.5 },
-      { "name": "Hamburguer Simples", "price": 7 }
+      { "name": "HAMBURGER_SPECIAL", "price": 7.5 },
+      { "name": "HAMBURGER_SIMPLE", "price": 7 }
     ]
   },
   "NACHOS": {
-    "label": "Nachos",
+    "label": "NACHOS",
     "items": [
-      { "name": "Nachos com Guacamole", "price": 4.5 },
-      { "name": "Nachos GR", "price": 8.5 }
+      { "name": "NACHOS_COM_GUACAMOLE", "price": 4.5 },
+      { "name": "NACHOS_GRANDE", "price": 8.5 }
     ]
   },
   "PREGOS": {
-    "label": "Pregos",
+    "label": "PREGOS",
     "items": [
-      { "name": "Prego de Vitela", "price": 7.5 },
-      { "name": "Prego Especial", "price": 8.5 }
+      { "name": "PREGOS_SIMPLES", "price": 7.5 },
+      { "name": "PREGOS_SPECIAL", "price": 8.5 }
     ]
   },
   "SANDWICHES": {
-    "label": "Tostas",
+    "label": "SANDWICHES",
     "items": [
-      { "name": "Tosta da Ilha", "price": 7 },
-      { "name": "Tosta Mista", "price": 7 }
+      { "name": "TOSTA_DA_ILHA", "price": 7 },
+      { "name": "TOSTA_MISTA", "price": 7 }
     ]
   }
 }

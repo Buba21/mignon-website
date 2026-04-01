@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import foods from '@/utils/foods.json';
 import drinks from '@/utils/drinks.json';
+import { useTranslation } from 'react-i18next';
 
 type Tab = 'bebidas' | 'comidas';
 
 export default function MenuPageComponent() {
     const [activeTab, setActiveTab] = useState<Tab>('bebidas');
+    const { t } = useTranslation();
 
     const iconsMap = new Map<string, string>([
         ['TAP_BEER', '006-beer.png'],
@@ -33,31 +35,32 @@ export default function MenuPageComponent() {
         }`
 
     const data = activeTab === 'bebidas' ? drinks : foods;
+    const itemSection = activeTab === 'bebidas' ? 'DRINKS' : 'FOODS';
 
     return (
         <div>
-            <div className='flex justify-center gap-8 mb-8 border-b border-(--mignon-card-border) w-160 mx-auto'>
-                <button className={tabClass('bebidas')} onClick={() => setActiveTab('bebidas')}>Bebidas</button>
-                <button className={tabClass('comidas')} onClick={() => setActiveTab('comidas')}>Comidas</button>
+            <div className='flex justify-center gap-8 mb-8 border-b border-(--mignon-card-border) w-full max-w-160 lg:max-w-184 mx-auto'>
+                <button className={tabClass('bebidas')} onClick={() => setActiveTab('bebidas')}>{t('MENU.DRINKS')}</button>
+                <button className={tabClass('comidas')} onClick={() => setActiveTab('comidas')}>{t('MENU.FOODS')}</button>
             </div>
-            <div className='grid grid-cols-2 gap-4 w-160 mb-16 mx-auto'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full max-w-160 lg:max-w-280 mb-16 mx-auto px-4'>
                 {Object.entries(data).map(([key, category]) => (
                     <div key={key} className='bg-(--mignon-card-bg) border border-(--mignon-card-border) rounded-lg overflow-hidden'>
-                        <div className='border-b border-(--mignon-card-border) p-4 text-center'>
-                            <p className='text-(--mignon-card-muted) text-[11px] tracking-[0.15em] uppercase mb-2'>
+                        <div className='border-b border-(--mignon-card-border) p-4 lg:p-5 text-center'>
+                            <p className='text-(--mignon-card-muted) text-[11px] lg:text-[12.5px] tracking-[0.15em] uppercase mb-2'>
                                 MIGNON SPORTS BAR
                             </p>
                             <div className='flex items-center justify-center gap-2'>
-                                <img src={`${import.meta.env.BASE_URL}icons/${iconsMap.get(key)}`} alt={category.label} className='w-12' />
-                                <h2 className='text-white font-medium text-2xl'>{category.label}</h2>
+                                <img src={`${import.meta.env.BASE_URL}icons/${iconsMap.get(key)}`} alt={t(`CATEGORIES.${key}`)} className='w-12 lg:w-[3.45rem]' />
+                                <h2 className='text-white font-medium text-2xl lg:text-[1.725rem]'>{t(`CATEGORIES.${key}`)}</h2>
                             </div>
-                            <div className='w-[40px] h-[2px] bg-(--mignon-color-secondary) mt-2 mx-auto' />
+                            <div className='w-[40px] lg:w-[46px] h-[2px] bg-(--mignon-color-secondary) mt-2 mx-auto' />
                         </div>
-                        <ul className='py-1 px-4'>
+                        <ul className='py-1 px-4 lg:px-5'>
                             {category.items.map((item) => (
-                                <li key={item.name} className='flex justify-between py-1.5 border-b border-(--mignon-card-separator) last:border-b-0'>
-                                    <span className='text-(--mignon-card-text)'>{item.name}</span>
-                                    <span className='text-(--mignon-color-secondary) font-medium'>{item.price.toFixed(2)} €</span>
+                                <li key={item.name} className='flex justify-between py-1.5 lg:py-2 border-b border-(--mignon-card-separator) last:border-b-0'>
+                                    <span className='text-(--mignon-card-text) lg:text-[1.035rem]'>{t(`${itemSection}.${item.name}`)}</span>
+                                    <span className='text-(--mignon-color-secondary) font-medium lg:text-[1.035rem]'>{item.price.toFixed(2)} €</span>
                                 </li>
                             ))}
                         </ul>

@@ -1,156 +1,156 @@
 {
   "TAP_BEER": {
-    "label": "Cerveja de Pressão",
+    "label": "TAP_BEER",
     "items": [
-      { "name": "Imperial Sagres 0.20 L", "price": 1.3 },
-      { "name": "Tulipa Sagres 0.30 L", "price": 1.9 },
-      { "name": "Caneca Sagres 0.50 L", "price": 3.3 },
-      { "name": "Guinness 0.25 L", "price": 3.3 },
-      { "name": "Guinness 0.50 L", "price": 6.5 },
-      { "name": "Heineken 0.25 L", "price": 2.4 },
-      { "name": "Heineken 0.50 L", "price": 5 },
-      { "name": "Lambreta Sagres", "price": 0.75 }
+      { "name": "SAGRES_0_20_L", "price": 1.3 },
+      { "name": "SAGRES_0_30_L", "price": 1.9 },
+      { "name": "SAGRES_0_50_L", "price": 3.3 },
+      { "name": "GUINNESS_0_25_L", "price": 3.3 },
+      { "name": "GUINNESS_0_50_L", "price": 6.5 },
+      { "name": "HEINEKEN_0_25_L", "price": 2.4 },
+      { "name": "HEINEKEN_0_50_L", "price": 5 },
+      { "name": "LAMBRETA_SAGRES", "price": 0.75 }
     ]
   },
   "BOTTLE_BEER": {
-    "label": "Cerveja Garrafa",
+    "label": "BOTTLE_BEER",
     "items": [
-      { "name": "Cerveja Sem Álcool", "price": 2 },
-      { "name": "Corona", "price": 2.5 },
-      { "name": "Desperados", "price": 3 },
-      { "name": "Guinness Lata", "price": 5.5 },
-      { "name": "Heineken 0.0", "price": 2.4 },
-      { "name": "Heineken Garrafa", "price": 2.2 },
-      { "name": "Stella Artois", "price": 2.2 }
+      { "name": "NON_ALCOHOLIC_BEER", "price": 2 },
+      { "name": "CORONA", "price": 2.5 },
+      { "name": "DESPERADOS", "price": 3 },
+      { "name": "GUINNESS_CAN", "price": 5.5 },
+      { "name": "HEINEKEN_BOTTLE_NON_ALCOHOLIC", "price": 2.4 },
+      { "name": "HEINEKEN_BOTTLE_ALCOHOLIC", "price": 2.2 },
+      { "name": "STELLA_ARTOIS", "price": 2.2 }
     ]
   },
   "WINES": {
-    "label": "Vinhos",
+    "label": "WINES",
     "items": [
-      { "name": "Bom Malandro", "price": 14 },
-      { "name": "Encosta D'La", "price": 12.5 },
-      { "name": "Montevelho", "price": 13 },
-      { "name": "Papa Figos", "price": 15 },
-      { "name": "Periquita", "price": 13 },
-      { "name": "Pintarola Tinto", "price": 11.5 },
-      { "name": "Planalto", "price": 15 },
-      { "name": "Porto Tónico", "price": 7 },
-      { "name": "Vinho Branco (Copo)", "price": 3.8 },
-      { "name": "Vinho Tinto (Copo)", "price": 3.8 }
+      { "name": "BOM_MALANDRO", "price": 14 },
+      { "name": "ENCOSTA_D_LA", "price": 12.5 },
+      { "name": "MONTEVELO", "price": 13 },
+      { "name": "PAPA_FIGOS", "price": 15 },
+      { "name": "PERIQUITA", "price": 13 },
+      { "name": "PINTAROLA_TINTO", "price": 11.5 },
+      { "name": "PLANALTO", "price": 15 },
+      { "name": "PORTO_TONIC", "price": 7 },
+      { "name": "VINHO_BRANCO_CUP", "price": 3.8 },
+      { "name": "VINHO_TINTO_CUP", "price": 3.8 }
     ]
   },
   "VODKA": {
-    "label": "Vodka",
+    "label": "VODKA",
     "items": [
-      { "name": "Absolut", "price": 8 },
-      { "name": "Beluga", "price": 11 },
-      { "name": "Eristoff", "price": 7 },
-      { "name": "Eristoff Black", "price": 7 },
-      { "name": "Moskovskaya", "price": 7 },
-      { "name": "Smirnoff", "price": 6 },
-      { "name": "Stolichnaya", "price": 7.5 }
+      { "name": "ABSOLUT", "price": 8 },
+      { "name": "BELUGA", "price": 11 },
+      { "name": "ERISTOFF", "price": 7 },
+      { "name": "ERISTOFF_BLACK", "price": 7 },
+      { "name": "MOSKOVSKAYA", "price": 7 },
+      { "name": "SMIRNOFF", "price": 6 },
+      { "name": "STOLICHNAYA", "price": 7.5 }
     ]
   },
   "NEW_WHISKY": {
-    "label": "Whisky Novo",
+    "label": "NEW_WHISKY",
     "items": [
-      { "name": "Ballantine's", "price": 5.5 },
-      { "name": "Cutty Sark", "price": 6.5 },
-      { "name": "Famous Grouse", "price": 6.5 },
-      { "name": "Grant's", "price": 6.5 },
-      { "name": "J&B", "price": 6.5 },
-      { "name": "Jack Daniel's", "price": 7.5 },
-      { "name": "Red Label", "price": 6.5 }
+      { "name": "BALLANTINES", "price": 5.5 },
+      { "name": "CUTTY_SARK", "price": 6.5 },
+      { "name": "FAMOUS_GROUSE", "price": 6.5 },
+      { "name": "GRANT'S", "price": 6.5 },
+      { "name": "J_B", "price": 6.5 },
+      { "name": "JACK_DANIEL_S", "price": 7.5 },
+      { "name": "RED_LABEL", "price": 6.5 }
     ]
   },
   "OLD_WHISKY": {
-    "label": "Whisky Velho",
+    "label": "OLD_WHISKY",
     "items": [
-      { "name": "Glen Moray", "price": 8.5 },
-      { "name": "Glenrothes", "price": 8.5 },
-      { "name": "Johnnie Walker Black Label", "price": 8 },
-      { "name": "JW Green Label", "price": 8.5 },
-      { "name": "Logan", "price": 6.5 },
-      { "name": "Nikka Blended", "price": 8.5 },
-      { "name": "Nikka Malt", "price": 9 }
+      { "name": "GLENR", "price": 8.5 },
+      { "name": "GLENR_ROTHE", "price": 8.5 },
+      { "name": "JOHNIE_WALKER_BLACK_LABEL", "price": 8 },
+      { "name": "JW_GREEN_LABEL", "price": 8.5 },
+      { "name": "LOGAN", "price": 6.5 },
+      { "name": "NIKKA_BLENDED", "price": 8.5 },
+      { "name": "NIKKA_MALT", "price": 9 }
     ]
   },
   "IRISH_WHISKY": {
-    "label": "Whisky Irlandês",
+    "label": "IRISH_WHISKY",
     "items": [
-      { "name": "Black Bushmills", "price": 8.5 },
-      { "name": "Bushmills", "price": 7 },
-      { "name": "Jameson", "price": 7 }
+      { "name": "BLACK_BUSHMILLS", "price": 8.5 },
+      { "name": "BUSHMILLS", "price": 7 },
+      { "name": "JAMESON", "price": 7 }
     ]
   },
   "GIN": {
-    "label": "Gin",
+    "label": "GIN",
     "items": [
-      { "name": "Beefeater", "price": 7.5 },
-      { "name": "Bombay Dry", "price": 7 },
-      { "name": "Bulldog", "price": 8.5 },
-      { "name": "Gibson's", "price": 6.5 },
-      { "name": "Gordon's", "price": 7 },
-      { "name": "Gunpowder", "price": 8.5 },
-      { "name": "Hendrick's", "price": 9 },
-      { "name": "Martin Miller", "price": 9 },
-      { "name": "Oxley", "price": 9 },
-      { "name": "Sapphire", "price": 8.5 },
-      { "name": "Sharish", "price": 8.5 },
-      { "name": "Tanqueray", "price": 8.5 },
-      { "name": "Tanqueray Ten", "price": 8.5 },
-      { "name": "Ventozelo", "price": 8.5 }
+      { "name": "BEEFEATER", "price": 7.5 },
+      { "name": "BOMBAY_DRY", "price": 7 },
+      { "name": "BULLDOG", "price": 8.5 },
+      { "name": "GIBSON_S", "price": 6.5 },
+      { "name": "GORDON_S", "price": 7 },
+      { "name": "GUNPOWDER", "price": 8.5 },
+      { "name": "HENDRICK_S", "price": 9 },
+      { "name": "MARTIN_MILLER", "price": 9 },
+      { "name": "OXLEY", "price": 9 },
+      { "name": "SAPPHIRE", "price": 8.5 },
+      { "name": "SHARISH", "price": 8.5 },
+      { "name": "TANQUERAY", "price": 8.5 },
+      { "name": "TANQUERAY_TEN", "price": 8.5 },
+      { "name": "VENTOZELO", "price": 8.5 }
     ]
   },
   "LICORS": {
-    "label": "Licores",
+    "label": "LICORES",
     "items": [
-      { "name": "Amêndoa Amarga", "price": 4 },
-      { "name": "Bacardi", "price": 6 },
-      { "name": "Caipiblack", "price": 7 },
-      { "name": "Caipirão", "price": 7 },
-      { "name": "Caipirinha", "price": 7 },
-      { "name": "Caipiroska", "price": 7 },
-      { "name": "Carolans", "price": 6.5 },
+      { "name": "AMENDOA_AMARGA", "price": 4 },
+      { "name": "BACARDI", "price": 6 },
+      { "name": "CAIPIBLACK", "price": 7 },
+      { "name": "CAIPIRAO", "price": 7 },
+      { "name": "CAIPIRINHA", "price": 7 },
+      { "name": "CAIPIROSKA", "price": 7 },
+      { "name": "CAROLANS", "price": 6.5 },
       { "name": "CRF", "price": 6.5 },
-      { "name": "Ginja", "price": 3 },
-      { "name": "Jägermeister", "price": 7 },
-      { "name": "Licor Beirão", "price": 5.5 },
-      { "name": "Limoncello", "price": 6.5 },
-      { "name": "Macieira", "price": 5 },
-      { "name": "Malibu", "price": 7 },
-      { "name": "Martini Bianco", "price": 5 },
-      { "name": "Martini Rosso", "price": 5 },
-      { "name": "Mojito", "price": 7 },
-      { "name": "Moscatel", "price": 4 },
-      { "name": "Rum El Dorado", "price": 7 },
-      { "name": "Shot", "price": 2.5 },
-      { "name": "Vinho Porto", "price": 4.5 }
+      { "name": "GINJA", "price": 3 },
+      { "name": "JAEGERMEISTER", "price": 7 },
+      { "name": "LICOR_BEIRAO", "price": 5.5 },
+      { "name": "LIMONCELLO", "price": 6.5 },
+      { "name": "MACIEIRA", "price": 5 },
+      { "name": "MALIBU", "price": 7 },
+      { "name": "MARTINI_BIANCO", "price": 5 },
+      { "name": "MARTINI_ROSSO", "price": 5 },
+      { "name": "MOJITO", "price": 7 },
+      { "name": "MOSCATEL", "price": 4 },
+      { "name": "RUM_EL_DORADO", "price": 7 },
+      { "name": "SHOT", "price": 2.5 },
+      { "name": "VINHO_PORTO", "price": 4.5 }
     ]
   },
   "BEVERAGES": {
-    "label": "Refrigerantes",
+    "label": "BEVERAGES",
     "items": [
-      { "name": "7 Up", "price": 2 },
-      { "name": "Água Tónica Saborizada", "price": 2.5 },
-      { "name": "Água Gás Limão", "price": 1.7 },
-      { "name": "Água", "price": 1 },
-      { "name": "Água Gás", "price": 1.3 },
-      { "name": "Água Tónica", "price": 2.2 },
-      { "name": "Bandida do Pomar", "price": 3 },
-      { "name": "Bandida Pomar Pequena", "price": 2 },
-      { "name": "Café", "price": 1.1 },
-      { "name": "Café Grande", "price": 2 },
-      { "name": "Chá", "price": 1.5 },
-      { "name": "Coca-Cola", "price": 2 },
-      { "name": "Cocktail", "price": 8 },
-      { "name": "Descafeinado", "price": 1 },
-      { "name": "Ginger Ale", "price": 1.7 },
-      { "name": "Ice-Tea", "price": 2 },
-      { "name": "Red Bull", "price": 3 },
-      { "name": "Somersby", "price": 3.5 },
-      { "name": "Sumo (Copo)", "price": 1.5 },
-      { "name": "Sumol", "price": 2 }
+      { "name": "7_UP", "price": 2 },
+      { "name": "AGUA_TONICA_SABOR", "price": 2.5 },
+      { "name": "AGUA_GAS_LIMAO", "price": 1.7 },
+      { "name": "AGUA", "price": 1 },
+      { "name": "AGUA_GAS", "price": 1.3 },
+      { "name": "AGUA_TONICA", "price": 2.2 },
+      { "name": "BANDIDA_POMAR_GRANDE", "price": 3 },
+      { "name": "BANDIDA_POMAR_PEQUENA", "price": 2 },
+      { "name": "CAFE", "price": 1.1 },
+      { "name": "CAFE_GRANDE", "price": 2 },
+      { "name": "CHA", "price": 1.5 },
+      { "name": "COCA_COLA", "price": 2 },
+      { "name": "COCKTAIL", "price": 8 },
+      { "name": "DESCAFEINADO", "price": 1 },
+      { "name": "GINGER_ALE", "price": 1.7 },
+      { "name": "ICE_TEA", "price": 2 },
+      { "name": "RED_BULL", "price": 3 },
+      { "name": "SUMERSBY", "price": 3.5 },
+      { "name": "SUMO_COPO", "price": 1.5 },
+      { "name": "SUMOL", "price": 2 }
     ]
   }
 }
