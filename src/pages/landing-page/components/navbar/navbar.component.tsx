@@ -15,10 +15,10 @@ export default function NavbarComponent() {
     const { t, i18n } = useTranslation();
 
     const languages = [
-        { code: 'pt', flag: 'fi-pt', label: 'Português' },
-        { code: 'en', flag: 'fi-gb', label: 'English' },
-        { code: 'fr', flag: 'fi-fr', label: 'Français' },
-        { code: 'de', flag: 'fi-de', label: 'Deutsch' },
+        { code: 'pt', flag: '🇵🇹', label: 'Português' },
+        { code: 'en', flag: '🇬🇧', label: 'English' },
+        { code: 'fr', flag: '🇫🇷', label: 'Français' },
+        { code: 'de', flag: '🇩🇪', label: 'Deutsch' },
     ];
 
     const navItems = [
@@ -61,7 +61,7 @@ export default function NavbarComponent() {
                <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                     <Button variant="mignon" className="cursor-pointer" style={{ backgroundColor: "var(--mignon-color-primary-light)", border: "1px solid var(--mignon-color-primary)" }}>
-                        <span className={`fi ${languages.find(l => l.code === i18n.language)?.flag ?? 'fi-pt'}`} style={{ fontSize: '1.5rem' }} />
+                        <span style={{ fontSize: '1.5rem' }}>{languages.find(l => l.code === i18n.language)?.flag ?? '🇵🇹'}</span>
                     </Button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent>
@@ -71,7 +71,7 @@ export default function NavbarComponent() {
                             onClick={() => i18n.changeLanguage(code)}
                             className={i18n.language === code ? 'font-bold' : ''}
                         >
-                            <span className={`fi ${flag}`} />
+                            <span>{flag}</span>
                             {label}
                         </DropdownMenuItem>
                     ))}
